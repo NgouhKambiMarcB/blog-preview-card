@@ -1,0 +1,69 @@
+body{
+    font-family: 'Figtree', sans-serif;
+    background-color: #f5d04e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: white;
+    height: 80vh;
+    width: 26vw;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 0.02px solid black; 
+    border-radius: 20px;
+    padding-left: 17px;
+    padding-top: 10px;
+    position: relative;
+    box-shadow: 10px 10px 1px 6px rgba(0, 0, 0, 0.8);
+
+}
+ img{
+    border-radius: 15px;
+    margin-bottom: 10px;
+    padding-top: 10px
+    
+}
+.button{
+    background-color: #f5d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    border-radius: 10px;
+    height: 15px;
+    width: 80px;
+    padding-bottom: 15px;
+}
+.button > p{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.profile{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+}
+.profile > img{
+    padding-right: 30px;
+}
+.profile > p{
+    font-weight: 700;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: block;
+    align-items: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+@media(min-width: 480px){
+    
+}
